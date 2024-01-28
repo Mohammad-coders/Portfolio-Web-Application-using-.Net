@@ -1,0 +1,77 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<style>
+    ul{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+       
+    }
+    ul > li{
+        list-style: none;
+    }
+    ul > li a {
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+        margin: 10px 5px;
+    }
+    header > div img{
+        width: 100%;
+        height: 150px;
+        margin-top: 10px;
+    }
+    .banner{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+
+    }
+    .banner-description h4{
+        margin-top: 10px;
+        margin-bottom:0px;
+    }
+    .banner-description p{
+        margin-top:0px;
+        margin-bottom: 0px;
+    }
+    .About{
+        margin-top: 10px;
+    }
+</style>
+
+<main>
+    <header>
+        <h1>Portfolio Application</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Personal</a></li>
+                <li><a href="#">Refference</a></li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <div>
+                <img src="~/Images/IMG_0068.jpg" alt="Portfolio Profile" />
+            </div>
+            <div class="banner-description">
+                <h4>Mohammad Bin Harun</h4>
+                <p>BSc. Computer Science and Engineering (C.S.E)</p>
+                <p>Studied at American International University Bangladesh</p>
+                <p>ID: 21-44583-1</p>
+                <p>E-mail: mohd.binharun788256@gmail.com</p>
+                <p>Git-Hub: <a href="https://github.com/Mohammad-coders">click git-profile/Mohammad-coders</a> </p>
+            </div>
+        </div>
+        <div class="About">
+            <h4>About</h4>
+            <p>
+                I am Mohammad Bin Harun, a passionate and results-driven web developer with experience in
+                creating websites. My expertise lies in front-end development, responsive design.
+            </p>
+        </div>
+    </header>
+</main>

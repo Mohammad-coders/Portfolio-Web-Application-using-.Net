@@ -3,5 +3,82 @@
     ViewBag.Title = "Education";
 }
 
-<h2>Education</h2>
+<style>
+    ul {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    ul > li {
+        list-style: none;
+    }
+
+    ul > li a {
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+        margin: 10px 5px;
+    }
+    table{
+        margin: 30px auto;
+    }
+    thead,tbody,tr,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 10px;
+    }
+    th {
+        text-align: center;
+    }
+</style>
+    
+ <header>
+    <h2>Education</h2>
+    <nav>
+        
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Personal</a></li>
+            <li><a href="#">Refference</a></li>
+        </ul>
+
+    </nav>
+ </header>
+<main>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Degree</th>
+                    <th>Year</th>
+                    <th>Institution</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BSc C.S.E</td>
+                    <td>2021-24</td>
+                    <td>American International University Bangladesh (AIUB)</td>
+                </tr>
+                <tr>
+                    <td>Higher School Certificate (HSC)</td>
+                    <td>2020</td>
+                    <td>Chittagong Laboratory College </td>
+                </tr>
+                <tr>
+                    <td>Secondary School Certificate (SSC)</td>
+                    <td>2018</td>
+                    <td>South Asian School</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</main>
+    
+
 

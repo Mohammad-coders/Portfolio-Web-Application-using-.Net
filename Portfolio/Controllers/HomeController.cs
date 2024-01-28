@@ -26,5 +26,11 @@ namespace Portfolio.Controllers
 
             return View();
         }
+        public ActionResult Education()
+        {
+            ViewBag.Message = "Your Education page.";
+
+            return View();
+        }
     }
 }

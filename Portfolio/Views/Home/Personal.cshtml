@@ -1,0 +1,67 @@
+﻿
+@{
+    ViewBag.Title = "Personal";
+}
+
+<style>
+    nav > ul {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    nav > ul > li {
+            list-style: none;
+    }
+
+    nav > ul > li a {
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+        margin: 10px 5px;
+    }
+    label{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 10px auto 20px auto;
+    }
+</style>
+
+<header>
+    <nav>
+
+        <ul>
+            <li><a href="https://localhost:44349/">Home</a></li>
+            <li><a href="https://localhost:44349/Home/Education">Education</a></li>
+            <li><a href="https://localhost:44349/Home/Projects">Projects</a></li>
+            <li><a href="https://localhost:44349/Home/Personal">Personal</a></li>
+            <li><a href="https://localhost:44349/Home/Refference">Refference</a></li>
+        </ul>
+
+    </nav>
+    <h2>Personal Information</h2>
+    <label>
+        Name: Mohammad Bin Harun
+    </label>
+    <label>
+        Email: mohd.binharun788256@gmail.com
+    </label>
+    <label>
+        Phone: 016xxxxxx56
+    </label>
+    <label>
+        Address: Chawkbazar, Chattogram
+    </label>
+    <label>
+        Nationality: Bangladeshi
+    </label>
+
+    <label>
+        Gender: Male
+    </label>
+    <label>
+        Date of Birth: 21-09-2002 <span>D-M-Y</span>
+    </label>
+</header>
+
+

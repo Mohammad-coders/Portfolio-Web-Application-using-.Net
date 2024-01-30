@@ -15,26 +15,32 @@ namespace Portfolio.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "My application description page.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "My contact page.";
 
             return View();
         }
         public ActionResult Education()
         {
-            ViewBag.Message = "Your Education page.";
+            ViewBag.Message = "My Education page.";
 
             return View();
         }
         public ActionResult Projects()
         {
-            ViewBag.Message = "Your Projects page.";
+            ViewBag.Message = "My Projects page.";
+
+            return View();
+        }
+        public ActionResult Personal()
+        {
+            ViewBag.Message = "My Personal Information";
 
             return View();
         }

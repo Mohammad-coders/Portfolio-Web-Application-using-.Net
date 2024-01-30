@@ -25,6 +25,16 @@
         grid-template-columns: repeat(1,1fr);
         margin: 10px auto 20px auto;
     }
+    .personal-information{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 50px;
+    }
+    img{
+        width: 100%;
+        height: 50vh;
+    }
 </style>
 
 <header>
@@ -39,29 +49,42 @@
         </ul>
 
     </nav>
-    <h2>Personal Information</h2>
-    <label>
-        Name: Mohammad Bin Harun
-    </label>
-    <label>
-        Email: mohd.binharun788256@gmail.com
-    </label>
-    <label>
-        Phone: 016xxxxxx56
-    </label>
-    <label>
-        Address: Chawkbazar, Chattogram
-    </label>
-    <label>
-        Nationality: Bangladeshi
-    </label>
-
-    <label>
-        Gender: Male
-    </label>
-    <label>
-        Date of Birth: 21-09-2002 <span>D-M-Y</span>
-    </label>
+    <div class="personal-information">
+        <div>
+            <h2>Personal Information</h2>
+            <hr>
+            <label>
+                Name: Mohammad Bin Harun
+            </label>
+            <hr>
+            <label>
+                Email: mohd.binharun788256@gmail.com
+            </label>
+            <hr>
+            <label>
+                Phone: 016xxxxxx56
+            </label>
+            <hr>
+            <label>
+                Address: Chawkbazar, Chattogram
+            </label>
+            <hr>
+            <label>
+                Nationality: Bangladeshi
+            </label>
+            <hr>
+            <label>
+                Gender: Male
+            </label>
+            <hr>
+            <label>
+                Date of Birth: 21-09-2002 <span>D-M-Y</span>
+            </label>
+        </div>
+        <div>
+            <img src="~/Images/IMG_0068.jpg" alt="Portfolio Profile" />
+        </div>
+    </div>
 </header>
 
 
